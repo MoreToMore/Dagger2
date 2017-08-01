@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Dagger2Demo</string>
+    <string name="tv_coffee_from">\"谁做的咖啡啊。。。。\"</string>
 </resources>
