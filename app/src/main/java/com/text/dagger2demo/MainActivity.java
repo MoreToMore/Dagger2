@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
 	}
 }
 /*
-devlop
+devlop11111
 * 1、如果是接口依赖（参数，实体类则可以通过inject标注构造方法），则需要module提供。
 * 2、inject标记实体类构造方法之后，所需参数也会去module或者寻求相应的inject类。
 * 3、提供依赖的方式可以是module、inject两种。
