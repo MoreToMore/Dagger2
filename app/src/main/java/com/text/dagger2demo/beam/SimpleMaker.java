@@ -1,5 +1,7 @@
 package com.text.dagger2demo.beam;
 
+import com.text.dagger2demo.dagger.TomCooker;
+
 import javax.inject.Inject;
 
 /**
@@ -9,7 +11,7 @@ import javax.inject.Inject;
 public class SimpleMaker implements CoffeeMaker {
 	Cooker cooker;
 	@Inject
-	public SimpleMaker(Cooker cooker) {
+	public SimpleMaker(@TomCooker Cooker cooker) {
 		this.cooker = cooker;
 	}
 

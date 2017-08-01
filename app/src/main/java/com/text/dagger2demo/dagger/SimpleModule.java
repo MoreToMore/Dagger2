@@ -11,8 +11,14 @@ import dagger.Provides;
 @Module
 public class SimpleModule {
 	@Provides
-	Cooker provideCooker(){
-		return new Cooker("James","Espresso");
+	@JimCooker
+	Cooker provideJimCooker(){
+		return new Cooker("jim","Espresso");
+	}
+	@Provides
+	@TomCooker
+	Cooker provideTomCooker(){
+		return new Cooker("tom","Espresso");
 	}
 //	@Provides
 //	CoffeeMaker provideCoffeeMaker(Cooker cooker){
