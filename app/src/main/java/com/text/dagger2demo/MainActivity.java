@@ -14,7 +14,7 @@ import butterknife.OnClick;
 import butterknife.Unbinder;
 
 public class MainActivity extends AppCompatActivity {
-
+//
 	@BindView(R.id.button)
 	Button button;
 	@BindView(R.id.tv_cotent)
